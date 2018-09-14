@@ -20,3 +20,6 @@ this is how we use git.
 
 """
 print('edit from cloud')
+
+def push():
+	print('push at 10 pm')
