@@ -53,33 +53,6 @@ if __name__ == '__main__':
 
 
 
-
-
-# x =1
-# def func():
-# 	global x
-# 	print(x)
-# 	x+=1
-# 	return x
-
-# f =func()
-# # print(f)
-# print(file=sys.stdout)
-# # print(file= sys.__stdout__)
-
-
-# from multiprocessing import Queue
-# q = Queue()
-# q.put(item) # Put an item on the queue
-# item = q.get() # Get an item from the queue
-
-
-# from multiprocessing import JoinableQueue
-# q = JoinableQueue()
-# q.task_done() # Signal task completion
-# q.join() # Wait for completion
-
-
 LOOPS = 1000000
 THREAD_NUM = 10
 STEP_SIZE = 94753434
@@ -127,3 +100,28 @@ t = Test()
 t.one_thread_test()
 t.multi_thread_test()
 
+
+
+# x =1
+# def func():
+#   global x
+#   print(x)
+#   x+=1
+#   return x
+
+# f =func()
+# # print(f)
+# print(file=sys.stdout)
+# # print(file= sys.__stdout__)
+
+
+# from multiprocessing import Queue
+# q = Queue()
+# q.put(item) # Put an item on the queue
+# item = q.get() # Get an item from the queue
+
+
+# from multiprocessing import JoinableQueue
+# q = JoinableQueue()
+# q.task_done() # Signal task completion
+# q.join() # Wait for completion
